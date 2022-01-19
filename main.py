@@ -18,7 +18,7 @@ def computer_guess(low , high):
         else:
             guess = low
        
-        print(f'Computer guessed a number = {guess}')
+        print(f'\nComputer guessed a number = {guess}')
 
         feedback = input(f'Is {guess} too high[H], too low[L] or correct[C] guessed number? ').lower()
         if feedback == 'h':
@@ -32,7 +32,7 @@ def computer_guess(low , high):
 
 # start game function
 def gameStart():
-    print('Let\'s play a guessing number game.\nThe rule is that you will guess a number between a range and computer will guess that number\n')
+    print('\nLet\'s play a guessing number game.\nThe rule is that you will guess a number between a range and computer will guess that number\n')
 
     status = input('Do you want to Play (y/n)?').lower()
 
